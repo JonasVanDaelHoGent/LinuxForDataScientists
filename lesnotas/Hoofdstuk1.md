@@ -9,14 +9,21 @@ Daarna sleutel in GitHub plakken, is eenvoudig. Je kan de SSH-verbinding met Git
 
 ## Package management
 
-1. Update de lijst van beschikbare software op je systeem. Toon een lijst van bij te werken packages (zonder deze ook daadwerkelijk bij te werken!)
-sudo apt update
-2. Kan je één package updaten (en de rest van de lijst niet), bv. Firefox?
-sudo apt install firefox
-3. Installeer onderstaande applicaties of “packages”. Zorg er voor dat je dit zowel via de grafische gebruikersinterface kan als vanop de command-line.
-sudo apt install git
+### 1. Update de lijst van beschikbare software op je systeem. Toon een lijst van bij te werken package (zonder deze ook daadwerkelijk bij te werken!)
+
+`sudo apt update`
+
+### 2. Kan je één package updaten (en de rest van de lijst niet), bv. Firefox?
+
+`sudo apt install firefox`
+
+### 3. Installeer onderstaande applicaties of “packages”. Zorg er voor dat je dit zowel via de grafische gebruikersinterface kan als vanop de command-line.
+
+`sudo apt install git
 sudo apt install jq
 sudo apt install shellcheck
-sudo apt install vim-gtk3
-4. Ga naar de website van Visual Studio Code, download en installeer de .deb-variant. Installeer ook nuttige plugins zoals Markdown All In One, Markdownlint, ShellCheck, GitLens, Git Graph
+sudo apt install vim-gtk3`
+
+### 4. Ga naar de website van Visual Studio Code, download en installeer de .deb-variant. Installeer ook nuttige plugins zoals Markdown All In One, Markdownlint, ShellCheck, GitLens, Git Graph
+
 <https://code.visualstudio.com/>
